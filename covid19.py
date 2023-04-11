@@ -166,12 +166,6 @@ if uploaded_file is not None:
            st.pyplot(fig)
 
 
-
-
-    #question 15
-    if st.checkbox("Q15:what is the mean of confirmed cases?"):
-           Confirmed.mean()
-
     # Question 15
     if st.checkbox("Q15: What is the distribution of Confirmed cases?"):
            # Create a histogram of confirmed cases
